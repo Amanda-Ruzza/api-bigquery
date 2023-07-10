@@ -9,3 +9,7 @@ output "default_label" {
 output "raw_data_seatgeeks" {
   value = module.buckets.raw_data_seatgeeks_name
 }
+
+output "dataset_name" {
+  value = module.bigquery.seatgeeks_dataset_friendly_name
+}
